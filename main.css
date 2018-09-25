@@ -6,10 +6,37 @@
     -webkit-box-sizing: border-box;
 }
 
-header {
-    height: 800px;
-    width: 100%;
-    background-image: radial-gradient(circle, rgb(31, 28, 24, .1), rgb(31, 28, 24, .6), rgba(142, 14, 0, .7)), url('img/p_51_mustang_tuskegee_airmen_plane_war2.jpg');
-    background-size: cover;
+ul li {
+    display: inline-block;
+}
 
+header {
+    height: 650px;
+    width: 100%;
+    background-image: url('img/p51-mustang-red-tails-2-scene-1b_full.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.patch-banner {
+    text-align: center;
+}
+
+.patch-banner li {
+    margin: 0 40px;
+}
+
+.squad-quote {
+    width: 68px;
+    cursor: pointer;
+}
+
+.squad-patch {
+    width: 68px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.squad-patch:hover {
+    opacity: 1;
 }
